@@ -542,6 +542,43 @@ section {
     font-size: 0.95rem;
 }
 
+/* Mission Section */
+.mission {
+    background: var(--sand);
+}
+
+.pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.pillar-card {
+    padding: 2rem;
+    text-align: center;
+    background: var(--paper);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.pillar-card i {
+    font-size: 1.75rem;
+    color: var(--gold-deep);
+    margin-bottom: 1rem;
+}
+
+.pillar-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.pillar-card p {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
 /* About Section */
 .about {
     display: grid;
@@ -993,6 +1030,7 @@ footer h4 {
 @media (max-width: 560px) {
     .offers-grid,
     .services-grid,
+    .pillars-grid,
     .field-row {
         grid-template-columns: 1fr;
     }
