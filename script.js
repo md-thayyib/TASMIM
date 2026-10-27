@@ -1,7 +1,7 @@
 document.documentElement.classList.add('js');
 
 document.addEventListener('DOMContentLoaded', function() {
-    const WHATSAPP_NUMBER = '966550589472';
+    const WHATSAPP_NUMBER = '918281404323';
     const waLink = (text) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 
     // WhatsApp links: every [data-wa] element opens a chat with its prefilled message
